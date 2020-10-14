@@ -22,7 +22,7 @@ Step 1 - In AppDelegate.swift
 ```
 \
 \
-2 - In the ViewControllers that you want to force portrait mode, modify ```viewDidLoad```, ```viewWillAppear``` and ```viewWillDisappear```
+Step 2 - In the ViewControllers that you want to force portrait mode, modify ```viewDidLoad```, ```viewWillAppear``` and ```viewWillDisappear```
 
 ```swift
     override func viewDidLoad() {
