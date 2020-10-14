@@ -13,6 +13,7 @@
 		DBBD80122537904F00F4F5DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD80102537904F00F4F5DF /* Main.storyboard */; };
 		DBBD80142537905200F4F5DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBD80132537905200F4F5DF /* Assets.xcassets */; };
 		DBBD80172537905200F4F5DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBD80152537905200F4F5DF /* LaunchScreen.storyboard */; };
+		DBBD80212537919800F4F5DF /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBD80202537919800F4F5DF /* PortraitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBBD80132537905200F4F5DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBBD80162537905200F4F5DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBBD80182537905200F4F5DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBD80202537919800F4F5DF /* PortraitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DBBD800A2537904F00F4F5DF /* AppDelegate.swift */,
 				DBBD800C2537904F00F4F5DF /* SceneDelegate.swift */,
 				DBBD800E2537904F00F4F5DF /* ViewController.swift */,
+				DBBD80202537919800F4F5DF /* PortraitViewController.swift */,
 				DBBD80102537904F00F4F5DF /* Main.storyboard */,
 				DBBD80132537905200F4F5DF /* Assets.xcassets */,
 				DBBD80152537905200F4F5DF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				DBBD800F2537904F00F4F5DF /* ViewController.swift in Sources */,
 				DBBD800B2537904F00F4F5DF /* AppDelegate.swift in Sources */,
 				DBBD800D2537904F00F4F5DF /* SceneDelegate.swift in Sources */,
+				DBBD80212537919800F4F5DF /* PortraitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E8VNZ48Y42;
 				INFOPLIST_FILE = "pw-rotation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E8VNZ48Y42;
 				INFOPLIST_FILE = "pw-rotation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
